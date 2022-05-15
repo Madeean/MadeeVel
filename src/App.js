@@ -1,12 +1,18 @@
-// import logo from './logo.svg';
-// import './App.css';
+//import react
+import React from 'react';
 
-function App(){
-  return(
-    <div className='App'>
-      <h1>Belajar react</h1>
-    </div>
-  )
+//import toats
+import { Toaster } from 'react-hot-toast';
+
+import Routes from './routes/routes'
+
+function App() {
+  return (
+    <React.Fragment>
+        <Toaster/>
+        <Routes/>
+    </React.Fragment>
+  );
 }
 
 export default App;
