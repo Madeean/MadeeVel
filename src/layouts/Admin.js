@@ -116,7 +116,7 @@ const LayoutAdmin =({children}) =>{
         <React.Fragment>
             <div className="d-flex sb-sidenav-toggled" id="wrapper">
             <div className="bg-white" id="sidebar-wrapper">
-                <div className="sidebar-heading bg-light text-center"><i className="fa fa-map-marked-alt"></i> <strong>TRAVEL GIS</strong> <small>ADMIN</small></div>
+                <div className="sidebar-heading bg-light text-center"><i className="fa fa-map-marked-alt"></i> <strong>MadeeVel</strong> <small>ADMIN</small></div>
                 <Sidebar />
             </div>
             <div id="page-content-wrapper">
