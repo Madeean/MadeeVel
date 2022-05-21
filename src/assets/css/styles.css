@@ -369,13 +369,14 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 .footer_top .footer_bg .footer_bg_one {
   background: url("../images/volks.gif") no-repeat center center;
   width: 330px;
-  height: 105px;
+  height: 70px;
   background-size:100%;
   position: absolute;
   bottom: 0;
   left: 30%;
   -webkit-animation: myfirst 22s linear infinite;
   animation: myfirst 22s linear infinite;
+  z-index: 3;
 }
 
 .footer_top .footer_bg .footer_bg_two {
@@ -388,7 +389,22 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   position: absolute;
   -webkit-animation: myfirst 30s linear infinite;
   animation: myfirst 30s linear infinite;
+  z-index: 2;
 }
+.footer_top .footer_bg .footer_bg_three {
+  background: url("../images/truck-unscreen.gif") no-repeat center center;
+  width: 230px;
+  height: 120px;
+  background-size:100%;
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  -webkit-animation: myfirst 38s linear infinite;
+  animation: myfirst 38s linear infinite;
+  z-index: 1;
+}
+
+
 
 @-moz-keyframes myfirst {
   0% {
