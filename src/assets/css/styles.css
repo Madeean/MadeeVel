@@ -433,3 +433,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   }
 }
 
+.spline{
+  z-index: 11;
+}
+
